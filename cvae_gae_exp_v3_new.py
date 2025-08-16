@@ -504,7 +504,7 @@ fig3 = plt.figure(figsize=(10,2))
 rows = 1; columns=5
 ax3 = []
 
-#Modifying only individual Z with other latent variables fixed. Ex) 221th image
+#Modifying only individual Z with other latent variables fixed.
 for i in range(5):
   distangle = np.array(z11[54,:])
   distangle[5] = set3[i]
